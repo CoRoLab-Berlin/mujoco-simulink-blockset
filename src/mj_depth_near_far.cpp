@@ -1,4 +1,3 @@
-#include <cstdint>
 // Copyright 2022-2023 The MathWorks, Inc.
 #include <cstdint>
 #include "mex.hpp"

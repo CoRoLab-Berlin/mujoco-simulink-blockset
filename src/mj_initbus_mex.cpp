@@ -1,4 +1,3 @@
-#include <cstdint>
 // This mex function generates a Simulink bus using "Simulink.Bus.createObject"
 //  1. The generated bus is named uniquely using std::hash
 //  2. If a bus with same name already exists, it will not regenerate
@@ -7,6 +6,7 @@
 // MATLAB and Simulink are registered trademarks of The MathWorks, Inc.
 // Copyright 2022-2023 The MathWorks, Inc.
 
+#include <cstdint>
 #include "mex.hpp"
 #include "mexAdapter.hpp"
 #include "MatlabDataArray.hpp"
