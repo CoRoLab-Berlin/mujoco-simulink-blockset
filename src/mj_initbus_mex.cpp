@@ -1,3 +1,4 @@
+#include <cstdint>
 // This mex function generates a Simulink bus using "Simulink.Bus.createObject"
 //  1. The generated bus is named uniquely using std::hash
 //  2. If a bus with same name already exists, it will not regenerate

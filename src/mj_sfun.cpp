@@ -1,3 +1,4 @@
+#include <cstdint>
 // Copyright 2022-2023 The MathWorks, Inc.
 #define S_FUNCTION_NAME  mj_sfun
 #define S_FUNCTION_LEVEL 2
